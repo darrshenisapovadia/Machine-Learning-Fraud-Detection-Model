@@ -147,8 +147,8 @@ All inputs must be numeric and follow the same format used during training.
 ## How to Run the Project
 
 1. Clone Repository
-git clone https://github.com/your-username/three-model-fraud-detection.git
-cd three-model-fraud-detection
+git clone https://github.com/darrshenisapovadia/Machine-Learning-Fraud-Detection-Model.git
+cd Machine-Learning-Fraud-Detection-Model
 
 2. Create Virtual Environment
 python -m venv .venv
