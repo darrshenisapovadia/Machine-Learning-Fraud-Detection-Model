@@ -1,0 +1,52 @@
+{
+  "mlp": {
+    "accuracy": 0.9860783138899658,
+    "precision": 0.012622720897615708,
+    "recall": 0.09473684210526316,
+    "f1": 0.022277227722772276,
+    "roc_auc": 0.2710288943661514,
+    "true_negatives": 55947,
+    "false_positives": 704,
+    "false_negatives": 86,
+    "true_positives": 9,
+    "false_positive_rate": 0.012426965102116468,
+    "false_negative_rate": 0.9052631578947369
+  },
+  "autoencoder": {
+    "accuracy": 0.9487893419800515,
+    "precision": 0.023397761953204477,
+    "recall": 0.7263157894736842,
+    "f1": 0.04533508541392904,
+    "roc_auc": 0.07298723764805563,
+    "true_negatives": 53771,
+    "false_positives": 2880,
+    "false_negatives": 26,
+    "true_positives": 69,
+    "false_positive_rate": 0.05083758450865827,
+    "false_negative_rate": 0.2736842105263158
+  },
+  "vae": {
+    "accuracy": 0.948648362880203,
+    "precision": 0.023011844331641287,
+    "recall": 0.7157894736842105,
+    "f1": 0.04459016393442623,
+    "roc_auc": 0.07849557168591811,
+    "true_negatives": 53764,
+    "false_positives": 2887,
+    "false_negatives": 27,
+    "true_positives": 68,
+    "false_positive_rate": 0.05096114808211682,
+    "false_negative_rate": 0.28421052631578947
+  },
+  "roc_auc": {
+    "mlp": 0.2710288943661514,
+    "autoencoder": 0.07298723764805563,
+    "vae": 0.07849557168591811
+  },
+  "pr_auc": {
+    "mlp": 0.0030070256665639923,
+    "autoencoder": 0.0008592020095267021,
+    "vae": 0.0008612515632965385
+  },
+  "timestamp": "2025-12-17T17:40:14.564462"
+}

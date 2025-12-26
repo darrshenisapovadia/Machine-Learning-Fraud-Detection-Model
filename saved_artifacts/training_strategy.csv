@@ -1,0 +1,4 @@
+,type,loss,optimizer,learning_rate,batch_size,epochs,regularisation,data,validation,purpose,threshold,beta
+MLP,Supervised,Binary Cross-Entropy,Adam,0.001,256,50,Dropout + BatchNorm,Balanced training set (SMOTE),Standard validation set,Baseline classification of fraudulent transactions,,
+Autoencoder,Unsupervised,Mean Squared Error (Reconstruction),Adam,0.001,256,50,BatchNorm,Normal transactions only (Class 0),Both normal and fraudulent transactions,Anomaly detection via reconstruction error,Optimised based on validation performance,
+Variational Autoencoder,Unsupervised (Probabilistic),MSE Reconstruction + KL Divergence,Adam,0.001,256,50,BatchNorm + KL weighting,Normal transactions only (Class 0),Both normal and fraudulent transactions,Probabilistic anomaly detection,Optimised based on validation performance,KL weight parameter (tunable)

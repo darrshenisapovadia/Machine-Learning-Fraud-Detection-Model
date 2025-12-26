@@ -1,0 +1,34 @@
+{
+  "mlp": {
+    "weight_decay": 1e-05,
+    "learning_rate": 0.001,
+    "hidden_dims": [
+      64,
+      32,
+      16
+    ],
+    "dropout_rate": 0.2,
+    "batch_size": 256
+  },
+  "autoencoder": {
+    "weight_decay": 1e-05,
+    "learning_rate": 0.001,
+    "hidden_dims": [
+      64,
+      32
+    ],
+    "encoding_dim": 4,
+    "batch_size": 128
+  },
+  "vae": {
+    "weight_decay": 1e-05,
+    "learning_rate": 0.0005,
+    "latent_dim": 4,
+    "hidden_dims": [
+      32,
+      16
+    ],
+    "beta": 1.0,
+    "batch_size": 256
+  }
+}

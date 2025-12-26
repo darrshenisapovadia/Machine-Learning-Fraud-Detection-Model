@@ -1,0 +1,25 @@
+{
+  "available_models": [
+    "autoencoder_model.pth",
+    "autoencoder_model_tuned.pth",
+    "mlp_model.pth",
+    "mlp_model_tuned.pth",
+    "vae_model.pth",
+    "vae_model_tuned.pth"
+  ],
+  "model_types": {
+    "mlp": "Supervised fraud classification",
+    "autoencoder": "Unsupervised anomaly detection",
+    "vae": "Probabilistic anomaly detection"
+  },
+  "thresholds": {
+    "ae_threshold": 1.0,
+    "vae_threshold": 1.0,
+    "mlp_threshold": 0.5,
+    "calculation_method": "95th percentile of reconstruction errors",
+    "save_timestamp": "2025-12-17T17:40:14.868129"
+  },
+  "input_dimension": 30,
+  "deployment_date": "2025-12-17T17:40:14.889251",
+  "notes": "Models should be loaded with their original architecture classes"
+}

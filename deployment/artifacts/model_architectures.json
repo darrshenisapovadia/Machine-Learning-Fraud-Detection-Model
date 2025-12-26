@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-12-17T15:42:58.162525",
+  "input_dimension": 30,
+  "models": {
+    "MLP": {
+      "model_type": "MLP",
+      "input_dim": 30,
+      "hidden_dims": [
+        64,
+        32,
+        16
+      ],
+      "total_params": 4833,
+      "trainable_params": 0
+    },
+    "Autoencoder": {
+      "model_type": "Autoencoder",
+      "input_dim": 30,
+      "encoding_dim": 8,
+      "hidden_dims": [
+        32,
+        16
+      ],
+      "total_params": 3526,
+      "trainable_params": 0
+    },
+    "Variational Autoencoder": {
+      "model_type": "Variational Autoencoder",
+      "input_dim": 30,
+      "latent_dim": 8,
+      "hidden_dims": [
+        32,
+        16
+      ],
+      "total_params": 3662,
+      "trainable_params": 0
+    }
+  }
+}
