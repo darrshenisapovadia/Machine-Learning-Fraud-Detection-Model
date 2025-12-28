@@ -7,6 +7,8 @@ The system detects fraudulent financial transactions in real time by combining s
 
 The project is designed to be modular, testable, and deployment-ready, making it suitable for real-world applications, learning, and portfolio use.
 
+Video Demo: https://drive.google.com/file/d/18t6wdQ1ZDQvwjHDykfMJAb7XA9NbcMye/view?usp=sharing
+
 ---
 
 ## System Architecture
