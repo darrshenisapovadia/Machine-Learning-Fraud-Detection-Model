@@ -37,4 +37,3 @@ test_input = torch.randn(1, 30)  # single sample
 with torch.no_grad():
     output_eval = model(test_input)
 print(f"✓ Eval mode forward pass works! Output: {output_eval.item():.6f}")
-# ---- Dropout test ----
