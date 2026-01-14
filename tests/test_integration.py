@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Integration tests for the Three-Model Fraud Detection System.
-Tests the complete pipeline from data loading to prediction.
-"""
+
 
 import unittest
 import numpy as np
