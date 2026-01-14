@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-Test script for the FastAPI Fraud Detection Application
-Author: Nafisa Lawal Idris
-Description: Tests all API endpoints with sample transactions
-"""
 
 import requests
 import time
